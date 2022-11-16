@@ -112,7 +112,7 @@ The command-line parameters for this model are:
 [-gamma0 <double>]        The prior for belonging to the background.
                           Default 1.0.
 [-gamma1 <double>]        The prior for not belonging to the background.
-                          Default 1.0.
+                          Default 1.0. 
 Example usage:
 
 java LearnTopicModel -model lda -input input_docs.txt -iters 500 -Z 100 -alpha 0.1 -gamma0 90 -gamma1 10
