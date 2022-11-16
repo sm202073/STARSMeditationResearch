@@ -74,7 +74,7 @@ public class LearnTopicModel {
             if (arguments.containsKey("-gamma1"))
                 gamma1 = Double.parseDouble(arguments.get("-gamma1"));
 
-            topicModel = new CcLDA(Z, alpha, beta, delta, gamma0, gamma1);
+            topicModel = new ccLDA(Z, alpha, beta, delta, gamma0, gamma1);
         } else if (model.equals("tam")) {
             if (!arguments.containsKey("-Z")) {
                 System.out.println("Must specify number of topics using -Z");

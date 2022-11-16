@@ -182,6 +182,7 @@ notation in the TAM paper, but be careful not to confuse these.
 Example usage:
 
 java LearnTopicModel -model tam -input input_docs.txt -iters 4000 -Z 30 -Y 2 -alpha 0.1 -beta 0.1
+java LearnTopicModel -model cclda -input anxiety_cclda.txt -iters 4000 -Z 30 -Y 2 -alpha 0.1 -beta 0.1
 The output format is the same as the input format, except each word token
 word has been replaced with word:z:y:l:x where z is the integer topic
 assignment, y is the integer aspect assignment, l denotes if it belongs to the

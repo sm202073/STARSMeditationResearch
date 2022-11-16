@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Random;
 import java.io.IOException;
 
-public class CcLDA extends TopicModel {
+public class ccLDA extends TopicModel {
 
 	public HashMap<String,Integer> wordMap;
 	public HashMap<Integer,String> wordMapInv;
@@ -34,7 +34,7 @@ public class CcLDA extends TopicModel {
 	public double gamma0;
 	public double gamma1;
 	
-	public CcLDA(int z, double a, double b, double d, double g0, double g1) {
+	public ccLDA(int z, double a, double b, double d, double g0, double g1) {
 		alpha = a;
 		beta = b;
 		delta = d;
